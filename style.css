@@ -1,6 +1,7 @@
 #head{
+    
     width: 100%;
-    height: 147px;
+    height: 59px;
 }
 body{
     margin: 0%;
@@ -8,15 +9,20 @@ body{
     overflow-x: hidden;
 }
 #top{
+   
     width: 100%;
     height: 59px;
     background-color: #dddddd;
     border-bottom: 0.5px solid #4b4f54;
 }
 #bottom{
+    position: sticky;
+    z-index: 30;
+    top: 0;
+    background-color: #fff;
     width: 100%;
     height: 79px;
-    float: left;
+    
 }
 #left-corner{
     margin-left: 1054px;
@@ -80,7 +86,7 @@ body{
 #section1{ 
     font-style: normal;
     width: 120px;
-    height: 54px;
+    height: 45px;
     padding-top: 14px;
     font-size: 20px;
     color: #4b4f54;
@@ -96,7 +102,7 @@ body{
     margin-left: 75px;
     font-style: normal;
     width: 95px;
-    height: 54px;
+    height: 45px;
     padding-top: 14px;
     font-size: 20px;
     color: #4b4f54;
@@ -112,7 +118,7 @@ body{
     margin-left: 75px;
     font-style: normal;
     width: 75px;
-    height: 54px;
+    height: 45px;
     padding-top: 14px;
     font-size: 20px;
     color: #4b4f54;
@@ -128,7 +134,7 @@ body{
     margin-left: 75px;
     font-style: normal;
     width: 65px;
-    height: 54px;
+    height: 45px;
     padding-top: 14px;
     font-size: 20px;
     color: #4b4f54;
@@ -207,6 +213,7 @@ body{
     background-color: #c8d4d6;
 }
 #second-content{
+    background-color: #fff;
     width: 100%;
     height: 670px;
 }
